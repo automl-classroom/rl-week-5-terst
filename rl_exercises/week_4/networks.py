@@ -14,7 +14,7 @@ class QNetwork(nn.Module):
             → Linear(hidden_dim→n_actions)
     """
 
-    def __init__(self, obs_dim: int, n_actions: int, hidden_dim: int = 64) -> None:
+    def __init__(self, obs_dim: int, n_actions: int, hidden_dim: int = 256) -> None:
         """
         Parameters
         ----------
